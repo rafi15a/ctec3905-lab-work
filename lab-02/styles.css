@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  background-color: grey;
+
+}
+
+nav a {
+  background-color: grey;
+  color: black;
+  padding: 1%;
+  margin: 1%;
+  /* try different values - e.g. 3s */
+  transition: background-color 0.7s;
+
+}
+
+nav a:hover {
+  background-color: white;
+}
+
+
+header, main {
+  overflow: auto;
+}
